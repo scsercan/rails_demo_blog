@@ -1,0 +1,21 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: rgb(1, 131, 77) !important;
+}
+
+.nav-link {
+    color: white !important
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+.jumbotron {
+    background-image: asset-url("owl_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
