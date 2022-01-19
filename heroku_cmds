@@ -1,2 +1,4 @@
 - git push heroku master
 - heroku run rails db:migrate
+- heroku run rails console
+- heroku open

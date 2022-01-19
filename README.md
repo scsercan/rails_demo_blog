@@ -22,3 +22,10 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+------------------------------------------------------------------
+- Associations, one-to-many, many-to-many
+- Front-end implementation and styling 
+- Back-end implementation, REST
+- Git, GitHub, local dev and production (Heroku)

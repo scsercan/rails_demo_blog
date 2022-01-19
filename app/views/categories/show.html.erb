@@ -1,10 +1,8 @@
-<h2 class="text-center mt-4"><%= @user.username %>'s Profile</h2>
+<h2 class="text-center mt-4">Category: <%= @category.name %></h2>
 
-<%= gravatar_for @user, size: 100 %> 
-
-<% if logged_in? and @user == current_user %>
+<% if logged_in? and current_user.admin? %>
     <div class="text-center mt-4">
-        <%= link_to 'Edit Your Profile', edit_user_path(@user), class: "btn btn-secondary" %>
+        <%= link_to 'Edit Category', edit_category_path(@category), class: "btn btn-secondary" %>
     </div>
 <% end %>
 
